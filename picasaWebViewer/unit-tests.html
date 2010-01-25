@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUnit Test Suite</title>
+	<link rel="stylesheet" href="qunit.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.7.2.min.js"></script>
+	<script type="text/javascript" src="qunit.js"></script> 
+	<script type="text/javascript" src="qmock.js"></script> 
+	<script type="text/javascript" src="jquery.picasawebviewer.js"></script>
+	<script type="text/javascript" src="jquery.picasawebviewer.tests.js"></script>
+	<script type="text/javascript">
+	var DEBUG = false;
+	if(!DEBUG){
+	    if(!window.console) window.console = {};
+	    var methods = ["log", "debug", "warn", "info", "group", "groupEnd"];
+	    for(var i=0;i<methods.length;i++){
+	        console[methods[i]] = function(){};
+	    }
+	}
+	
+	var targetId = "#qunit-target";
+	</script>
+</head>
+<body>		
+	<h1 id="qunit-header">QUnit Test Suite</h1>
+	<h2 id="qunit-banner"></h2>
+	<div id="qunit-testrunner-toolbar"></div>
+	<h2 id="qunit-userAgent"></h2>
+	<ol id="qunit-tests"></ol>
+	<div id="qunit-target"></div><!-- style="display: none;" -->
+</body>
+</html>

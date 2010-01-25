@@ -1,0 +1,7 @@
+#gallery { width: 100%; } 
+.gallery.custom-state-active { background: #eee; }
+.gallery li { float: left; width: 160px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+.gallery li h5 { margin: 0 0 0.4em; cursor: pointer; }
+.gallery li a { float: right; }
+.gallery li a.ui-icon-zoomin { float: left; }
+.gallery li img { width: 100%; cursor: pointer; width: 160px; height: 120px; } 

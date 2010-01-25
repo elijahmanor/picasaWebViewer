@@ -1,0 +1,8 @@
+	<!-- http://docs.jquery.com/QUnit -->
+	<!-- http://code.google.com/p/amok/wiki/GettingStarted -->
+	<!-- http://bulatgafurov.name/blog/post/2009/06/27/Custom-Picasa-Web-Albums-photo-viewer-with-JQuery-and-Google-Data-API.aspx -->
+	<!-- http://code.google.com/apis/gdata/docs/json.html -->
+	<!-- http://www.google.com/calendar/feeds/developer-calendar@google.com/public/full?alt=json-in-script&callback=myFunction -->
+	<!-- http://picasaweb.google.com/data/feed/api/elijah.manor/liz?kind=album&alt=json-in-script&callback=myFunction -->
+http://stilbuero.de/jquery/tabs_3/close.html
+http://www.ajaxblender.com/howto-resize-image-proportionally-using-javascript.html
